@@ -110,3 +110,13 @@ pointer-events: none;
     justify-content: center;
     align-items: center;
 }
+
+.contact-icon {
+  color: #aaa;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.contact-icon:hover {
+  color: #fff;
+  transform: translateY(-3px);
+}
